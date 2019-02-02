@@ -45,12 +45,9 @@ nav a {
     color: white;
 }
 
-nav a:hover {
-    font-style: italic;
-}
-
 nav li:hover {
     background-color: #014b6d;
+    font-style: italic;
 }
 
 nav li {
