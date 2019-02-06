@@ -1,0 +1,28 @@
+
+@media (min-width: 610px) {
+    .headings {
+	    display: inline-block;
+	    vertical-align: middle;
+        margin: 10px;
+        color: white;
+        font-family: "Arapey", serif;
+    }
+
+    .headings h1 {
+        font-size: 50px;
+        line-height: 5px;
+        color: white;
+    }
+
+    #logo {
+        width: 120px;
+        display: inline-block;
+	    vertical-align: middle;
+	    margin: 10px; 
+    }
+
+    #moto {
+        font-style: italic;
+        width: 320px;
+    } 
+}
