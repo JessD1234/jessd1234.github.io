@@ -1,5 +1,52 @@
 
 @media (min-width: 610px) {
+    article {
+        background-color: rgb(216, 216, 216);
+        padding: 15px;
+        margin: 30px;
+    }
+    
+    article p {
+        text-align: left;
+    }
+
+    article h2 {
+        line-height: 10px;
+
+    }    
+    th {
+        font-family: "Arapey", serif;
+        font-size: 25px;
+        color: #014b6d;
+        text-align: center;
+    }
+
+    nav li {
+       display: inline-block;
+       padding-left: 10px;
+       padding-right: 10px;
+       margin-left: 5px;
+       margin-right: 5px;
+    }
+
+    nav a {
+        padding: 25px;
+    }
+
+    nav li:hover {
+        background-color: #014b6d;
+        font-style: italic;
+    }
+
+    table {
+        margin: auto;
+    }
+    
+    td {
+        font-family: calibri, sans-serif;
+        font-size: 20px;
+    }
+    
     .headings {
 	    display: inline-block;
 	    vertical-align: middle;
@@ -14,6 +61,28 @@
         color: white;
     }
 
+    .currentweather {
+        font-family: calibri, sans-serif;
+        background-color:  rgba(62, 147, 208, 0.7);
+        position: absolute;
+        width: 300px;
+        top: 420px;
+        left: 35px;
+        padding: 30px;
+        font-size: 18px;
+    }
+    
+    .weather-icon {
+        width: 7em;
+    }
+
+    .article-image {
+        float: right;
+        right: 60px;
+        margin: 20px;
+        padding-top: 20px;
+    }
+
     #logo {
         width: 120px;
         display: inline-block;
@@ -24,5 +93,19 @@
     #moto {
         font-style: italic;
         width: 320px;
+        padding: 0px;
+        
     } 
+    
+    #banner-image {
+        width: 80em;
+        margin: 10px;
+    }
+
+    #wayfinder {
+        background-color: #014b6d;
+        font-style: italic;
+        color: black;
+    }
+    
 }

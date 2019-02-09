@@ -14,7 +14,8 @@ h1 {
 h2 {
     font-family: "Arapey", serif;
     font-size: 30px;
-    color: #006494; 
+    color: #006494;
+    line-height: 50px; 
 }
 
 h3 {
@@ -26,6 +27,8 @@ h3 {
 p {
     font-family: calibri, sans-serif;
     font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header {
@@ -63,6 +66,19 @@ footer {
     padding: 20px;
 }
 
+.currentweather li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.currentweather h2 {
+    color: white;
+}
+
+.weather-icon {
+    width: 7em;
+}
+
 .headings {
     color: white;
     font-family: "Arapey", serif;
@@ -75,19 +91,47 @@ footer {
     color: white;
 }
 
+#banner-image {
+    width: 90em;
+}
+
 #logo {
     width: 120px;
    align-content: center;
 	margin: 10px; 
 }
 
+#moto {
+    font-style: italic;
+} 
+
+#banner-image {
+    width: 100%;
+}
+
+@media (max-width: 610px) {
+    .forecast {
+        display: none;
+    }
+
+    .currentweather {
+        font-family: calibri, sans-serif;
+        background-color: rgba(62, 147, 208, 0.7);
+        position: absolute;
+        width: 200px;
+        left: 20px;
+        padding-right: 10px;
+        font-size: 18px;
+        color: white;
+    }
+}
+
 #wayfinder {
     background-color: #014b6d;
     font-style: italic;
     color: black;
+    
 }
 
-#moto {
-    font-style: italic;
-} 
+
 
