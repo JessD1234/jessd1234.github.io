@@ -47,6 +47,10 @@
         font-size: 20px;
     }
     
+    footer {
+        clear: both;
+    }
+
     .headings {
 	    display: inline-block;
 	    vertical-align: middle;
@@ -107,5 +111,4 @@
         font-style: italic;
         color: black;
     }
-    
 }

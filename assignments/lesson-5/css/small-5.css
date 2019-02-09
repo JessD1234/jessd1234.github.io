@@ -64,6 +64,7 @@ footer {
     background-color: #202020;
     color: white;
     padding: 20px;
+    margin-top: 15px;
 }
 
 .currentweather li {
@@ -89,6 +90,10 @@ footer {
     word-spacing: -5px;
     line-height: 5px;
     color: white;
+}
+
+.social-media {
+    width: 40px;
 }
 
 #banner-image {
@@ -124,13 +129,21 @@ footer {
         font-size: 18px;
         color: white;
     }
+
+    .currentweather h2 {
+        font-size: 24px;
+    }
+
+    .article-image {
+        width: 300px;
+        margin-top: 90px;
+    }
 }
 
 #wayfinder {
     background-color: #014b6d;
     font-style: italic;
-    color: black;
-    
+    color: black;    
 }
 
 
