@@ -8,11 +8,10 @@
         <link rel="stylesheet" href="../../css/normalize.css">
         <link rel="stylesheet" href="css/small-6.css">
         <link rel="stylesheet" href="css/large-6.css">
-        <script src="javascript/hamburger.js"></script>
     </head>
     <body>
         <header>
-            <img src="images/intheknowlogo_dark.png" alt="logo" id="logo">
+            <img src="images/intheknowlogo_dark.jpg" alt="logo" id="logo">
             <section class="headings">
                 <h1>In the Know Weather</h1>
                 <div id="moto"><p>Accurate weather always.</p></div>
@@ -42,8 +41,13 @@
                     <li>Windspeed: 2mph</li>
                 </ul>
             </section>
-                <img src="images/hero-image.jpg" alt="Sunny Field" id="banner-image">
-            
+            <img srcset="images/hero-image-required-small.jpg 500w,
+                        images/hero-image-required-media.jpg 650w, 
+                        images/hero-image-required-large.jpg 1200w"
+                sizes="(max-width: 501px) 500px,
+                       (max-width: 801px) 650px,
+                       1200px"
+                src="images/hero-image-required-large.jpg" alt="Sunny sky">
             <section class="forecast">
                 <h2>5 Day Forecast</h2>
                 <table>
@@ -87,12 +91,14 @@
                     <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" class="social-media"></a>
                     <a target="_blank" href="https://www.pinterest.com/"><img src="images/pinterest.png" alt="pinterest" class="social-media"></a>
                     <a target="_blank" href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube" class="social-media"></a>
+                    <h4>Map of Preston Idaho</h4>
+                    <img src="images/2019-02-08.png" alt="map">
             </section>
         </main>
         <footer>
-            <p>&copy; 2019 all rights reserved | Jessica Duckworth | February 2019</p>
+            <p>&copy; 2019 all rights reserved | Jessica Duckworth |</p><div id="date"></div>
         </footer>
-
+        <script src="javascript/date.js"></script>
+        <script src="javascript/hamburger.js"></script>
     </body>
-
 </html>

@@ -24,6 +24,12 @@ h3 {
     color: #006494; 
 }
 
+h4 {
+    font-family: "Arapey", serif;
+    font-size: 18px;
+    color: #006494; 
+}
+
 p {
     font-family: calibri, sans-serif;
     font-size: 16px;
@@ -47,6 +53,7 @@ footer {
 .currentweather li {
     list-style-type: none;
     text-align: left;
+    color: white;
 }
 
 .currentweather h2 {
@@ -71,11 +78,12 @@ footer {
 
 .social-media {
     width: 40px;
+    display: inline;
 }
 
-#banner-image {
+/*#banner-image {
     width: 90em;
-}
+}*/
 
 #logo {
     width: 120px;
@@ -87,9 +95,9 @@ footer {
     font-style: italic;
 } 
 
-#banner-image {
+/*#banner-image {
     width: 100%;
-}
+}*/
 
 @media (max-width: 780px) {
     nav {
@@ -141,7 +149,7 @@ footer {
 
     .currentweather {
         font-family: calibri, sans-serif;
-        background-color: rgba(62, 147, 208, 0.7);
+        background-color: rgba(62, 147, 208);
         position: absolute;
         width: 200px;
         left: 20px;
@@ -153,6 +161,7 @@ footer {
     .currentweather h2 {
         font-size: 24px;
     }
+
 
     .article-image {
         width: 300px;
