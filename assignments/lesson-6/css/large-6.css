@@ -127,6 +127,10 @@
         font-family: Calibri, sans-serif;
         display: inline;
     }
+
+    #map {
+        width: 400px;
+    }
     
     /*#banner-image {
         width: 80em;
