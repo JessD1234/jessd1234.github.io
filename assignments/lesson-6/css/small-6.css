@@ -95,6 +95,11 @@ footer {
     font-style: italic;
 } 
 
+#map {
+    width: 250px;
+
+}
+
 /*#banner-image {
     width: 100%;
 }*/
@@ -165,7 +170,7 @@ footer {
 
     .article-image {
         width: 300px;
-        margin-top: 90px;
+        margin-top: 130px;
     }
 
   /*  .clearfix:after {
