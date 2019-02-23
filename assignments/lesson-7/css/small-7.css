@@ -112,8 +112,15 @@ figcaption {
     display: grid;
     /*grid-template-columns: repeat(1, 1fr);
     padding: 10px;*/
-    grid-template-columns: repeat(1, minmax(370px, 1fr));
     
+    justify-content: center;
+}
+
+div.galleryimages {
+    grid-template-columns: repeat(1, 1fr);
+}
+.galleryimages img {
+    max-width: 100%
 }
 
 /*#banner-image {

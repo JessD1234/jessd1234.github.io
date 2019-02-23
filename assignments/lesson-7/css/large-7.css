@@ -142,12 +142,13 @@
     div.galleryimages {
         /* grid-template-columns: repeat(3, 1fr); 
         justify-items: start;*/
-       
-        grid-template-columns: repeat(3, minmax(370px, 1fr));
-        
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
     }
-
-   
+    
+    .galleryimages img {
+        max-width: 100%;
+    }
 
     #logo {
         width: 120px;

@@ -4,8 +4,12 @@
   /* grid-template-columns: repeat(2, 1fr);
    justify-items: start;*/
     
-    grid-template-columns: repeat(2, minmax(370px, 1fr));
-   
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.galleryimages img {
+    max-width: 100%;
 }
 
     nav {
