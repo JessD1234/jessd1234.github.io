@@ -1,0 +1,53 @@
+@media only screen and (min-width: 721px) and (max-width: 949px) {
+
+    div.galleryimages {
+  /* grid-template-columns: repeat(2, 1fr);
+   justify-items: start;*/
+    
+    grid-template-columns: repeat(2, minmax(370px, 1fr));
+   
+}
+
+    nav {
+        background-color: #006494;
+        margin-top: -16px;
+        /*text-align: center;*/
+        font-family: calibiri, sans-serif;
+    }
+    
+    nav ul li a {
+        display: block;
+        border-top: 1px solid rgba(0,0,0,0.5);
+        text-decoration: none;
+        color: white;
+        padding: .8rem 2%;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul.hide {
+        display: none;
+    }
+    
+    nav button {
+        background-color: transparent;
+        border: none;
+        margin: .2rem 2%;
+        font-size: 1.6rem;
+    }
+    
+    nav ul li a:hover {
+        background-color: #014b6d;
+        font-style: italic;
+    }
+    
+    nav ul li.wayfinder a {
+        background-color: #014b6d;
+        font-style: italic;
+        color: white;    
+    }
+}

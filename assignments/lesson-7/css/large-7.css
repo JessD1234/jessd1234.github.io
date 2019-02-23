@@ -1,0 +1,186 @@
+
+@media only screen and (min-width: 950px) {
+    
+    article {
+        background-color: rgb(216, 216, 216);
+        padding: 15px;
+        margin: 30px;
+    }
+    
+    article p {
+        text-align: left;
+    }
+
+    article h2 {
+        line-height: 10px;
+
+    }    
+    th {
+        font-family: "Arapey", serif;
+        font-size: 25px;
+        color: #014b6d;
+        text-align: center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav {
+        background-color: #006494;
+        text-align: center;
+        font-family: calibiri, sans-serif;
+        margin-top: -20px;
+    }
+
+    nav li {
+        display: inline-flex;
+        justify-content: space-between;
+        /*margin-left: 5px;
+        margin-right: 5px;*/
+    }
+
+    nav ul.hide {
+        display: block;
+
+    }
+
+    nav a {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    nav li:hover {
+        background-color: #014b6d;
+        font-style: italic;
+    }
+
+    table {
+        margin: auto;
+    }
+    
+    td {
+        font-family: calibri, sans-serif;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    footer {
+        clear: both;
+    }
+
+    .headings {
+	    display: inline-block;
+	    vertical-align: middle;
+        margin: 10px;
+        color: white;
+        font-family: "Arapey", serif;
+    }
+
+/*
+    .headings {
+        display: flex;
+    }
+*/
+    .headings h1 {
+        font-size: 50px;
+        line-height: 5px;
+        color: white;
+    }
+
+    .currentweather {
+        font-family: calibri, sans-serif;
+        background-color:  rgba(62, 147, 208, .7);
+        position: absolute;
+        width: 400px;
+        top: 340px;
+        left: 35px;
+        padding: 30px;
+        font-size: 30px;
+    }
+    
+    .contactus {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-gap: 0px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .contactus p {
+        text-align: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .social-media {
+        width: 40px;
+        display: inline;
+        
+    }
+
+    .currentweather h2 {
+        font-size: 40px;
+    }
+    .weather-icon {
+        width: 7em;
+    }
+
+    .article-image {
+        float: right;
+        right: 60px;
+        margin: 20px;
+        padding-top: 20px;
+    }
+
+    div.galleryimages {
+        /* grid-template-columns: repeat(3, 1fr); 
+        justify-items: start;*/
+       
+        grid-template-columns: repeat(3, minmax(370px, 1fr));
+        
+    }
+
+   
+
+    #logo {
+        width: 120px;
+        display: inline-block;
+	    vertical-align: middle;
+	    margin: 10px; 
+    }
+
+    #moto {
+        font-style: italic;
+        width: 320px;
+        padding: 0px;
+        
+    } 
+
+    #date {
+        font-family: Calibri, sans-serif;
+        display: inline;
+    }
+
+    #map {
+        width: 400px;
+        
+    }
+    
+    #banner-image {
+        width: 80em;
+        margin: 10px;
+    }
+    
+    .wayfinder {
+        background-color: #014b6d;
+        font-style: italic;
+        color: black;
+    }
+}

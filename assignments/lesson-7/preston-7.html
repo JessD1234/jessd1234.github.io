@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>In the Know Weather | Preston</title> 
+        <meta name="description" content="Weather site for Preston."> 
+        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="css/small-7.css">
+        <link rel="stylesheet" href="css/large-7.css">
+        <link rel="stylesheet" href="css/medium-7.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/intheknowlogo_dark.jpg" alt="logo" id="logo">
+            <section class="headings">
+                <h1>In the Know Weather</h1>
+                <div id="moto"><p>Accurate weather always.</p></div>
+            </section>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="wayfinder"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Preston Idaho</h1>
+            <section class="currentweather">
+                <h2>Weather Summary</h2>
+                <ul>
+                    <li><span id="temperature">48</span> &deg;F</li>
+                    <li>Sunny</li>
+                    <li>Today's high: 68 &deg;F</li>
+                    <li>Today's low: 48 &deg;F</li>
+                    <li>Humidity: 42%</li>
+                    <li>Windspeed: <span id="windspeed">3</span>mph</li>
+                    <li id="windchill"></li>
+                </ul>
+            </section>
+            <img src="images/hero-image-required-large.jpg" alt="Sunny sky" id="banner-image">
+            <section class="forecast">
+                <h2>5 Day Forecast</h2>
+                <table>
+                        <tr>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                        </tr>
+                        <tr id="row2">
+                        <td><img src="images/sun2.png" alt="sun" class="weather-icon"></td>
+                        <td><img src="images/lightning-rain.jpg" alt="thunderstorms" class="weather-icon"></td>
+                        <td><img src="images/light-rain.jpg" alt="light raing" class="weather-icon"></td>
+                        <td><img src="images/sun2.png" alt="sun" class="weather-icon"></td>
+                        <td><img src="images/heavy-rain.jpg" alt="heavy rain" class="weather-icon"></td>
+                        <td><img src="images/light-rain.jpg" alt="light rain" class="weather-icon"></td>
+                        </tr>
+                        <tr>
+                            <td>73 &deg;</td>
+                            <td>68 &deg;</td>
+                            <td>63 &deg;</td>
+                            <td>70 &deg;</td>
+                            <td>69 &deg;</td>
+                            <td>72 &deg;</td>
+                        </tr>
+                </table>
+            </section>
+            <article>
+                <img src="images/pexels-photo-414171.jpeg" alt="The Valley" class="article-image">
+                <h2>Photo Contest</h2>
+                <h3>By Jeremy Blachard</h3>
+                <p>Our anual photo contest begins next week! For three years, <i>In the Know </i> weather channel has hosted an annual photo contest where residents of Preston and nearby towns submit their best weather-related photos. Neighbors and friends vote for the best photo in their town, and then that finalist goes on to compete with other towns for first place! A small cash prize is rewarded to the winner. </p> 
+                <p>Contestants can submit their photos by email to photos_weather@mail.com with a title, their name, contact info, and a brief description. Please submit any photos you would like considered for the contest by August 4th. After they close, we will display the photos in our gallery for everyone to vote! Watch for more details to come!</p>
+                <p>Accompanying this article is last year's first place photo, <i>The Valley Lake</i> by Mariea Jenkins. Once again, great job Mariea!</p>
+            </article>
+            <section class="contactus">
+                    <img src="images/2019-02-08.png" alt="map" id="map">
+                <div class="text">  
+                <h2>Contact Us</h2>
+                    <p>Do you have questions, comments, feedback? Reach us at 315-626-9187 or intheknow@email.com. We would love to hear from you! You can also follow us on social media.</p>
+                    <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" class="social-media"></a>
+                    <a target="_blank" href="https://www.pinterest.com/"><img src="images/pinterest.png" alt="pinterest" class="social-media"></a>
+                    <a target="_blank" href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube" class="social-media"></a>
+                </div>  
+                    
+                    
+                    
+                
+                    <!--<h4>Map of Preston Idaho</h4>-->
+                    
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2019 all rights reserved | Jessica Duckworth | <span id="date"></span></p>
+        </footer>
+        <script src="javascript/date.js"></script>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/windchill.js"></script>
+    </body>
+</html>

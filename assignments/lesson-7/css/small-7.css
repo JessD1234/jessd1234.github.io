@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Fredericka+the+Great');
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Arapey", serif;
+    font-size: 48px;
+    color: #006494; 
+}
+
+h2 {
+    font-family: "Arapey", serif;
+    font-size: 30px;
+    color: #006494;
+    line-height: 50px; 
+}
+
+h3 {
+    font-family: "Arapey", serif;
+    font-size: 20px;
+    color: #006494; 
+}
+
+h4 {
+    font-family: "Arapey", serif;
+    font-size: 18px;
+    color: #006494; 
+}
+
+p {
+    font-family: calibri, sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    background-color:#3e93d0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #202020;
+    color: white;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+figcaption {
+    font-family: calibri, sans-serif;
+
+}
+
+.currentweather li {
+    list-style-type: none;
+    text-align: left;
+    color: white;
+}
+
+.currentweather h2 {
+    color: white;
+}
+
+.weather-icon {
+    width: 7em;
+}
+
+.headings {
+    color: white;
+    font-family: "Arapey", serif;
+}
+
+.headings h1 {
+    font-size: 2em;
+    word-spacing: -5px;
+    line-height: 5px;
+    color: white;
+}
+
+.social-media {
+    width: 40px;
+    display: inline;
+}
+
+.galleryimages img:hover {
+    box-shadow: 0 0 50px #333;
+
+}
+
+#banner-image {
+    width: 100%;
+}
+
+#logo {
+    width: 120px;
+   align-content: center;
+	margin: 10px; 
+}
+
+#moto {
+    font-style: italic;
+} 
+
+#map {
+    width: 250px;
+}
+
+.galleryimages {
+    display: grid;
+    /*grid-template-columns: repeat(1, 1fr);
+    padding: 10px;*/
+    grid-template-columns: repeat(1, minmax(370px, 1fr));
+    
+}
+
+/*#banner-image {
+    width: 100%;
+}*/
+
+@media (max-width: 720px) {
+    nav {
+        background-color: #006494;
+        margin-top: -16px;
+        /*text-align: center;*/
+        font-family: calibiri, sans-serif;
+    }
+    
+    nav ul li a {
+        display: block;
+        border-top: 1px solid rgba(0,0,0,0.5);
+        text-decoration: none;
+        color: white;
+        padding: .8rem 2%;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul.hide {
+        display: none;
+    }
+    
+    nav button {
+        background-color: transparent;
+        border: none;
+        margin: .2rem 2%;
+        font-size: 1.6rem;
+    }
+    
+    nav ul li a:hover {
+        background-color: #014b6d;
+        font-style: italic;
+    }
+    
+    nav ul li.wayfinder a {
+        background-color: #014b6d;
+        font-style: italic;
+        color: white;    
+    }
+    
+    .forecast {
+        display: none;
+    }
+
+    .currentweather {
+        font-family: calibri, sans-serif;
+        background-color: rgba(62, 147, 208);
+        position: absolute;
+        width: 200px;
+        left: 20px;
+        padding-right: 10px;
+        font-size: 18px;
+        color: white;
+    }
+
+    .currentweather h2 {
+        font-size: 24px;
+    }
+
+
+    .article-image {
+        width: 300px;
+        margin-top: 130px;
+    }
+
+    
+
+  /*  .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }*/
+
+}
+
+
+
+
