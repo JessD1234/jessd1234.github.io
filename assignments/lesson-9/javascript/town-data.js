@@ -29,12 +29,12 @@ function showTowns(jsonObj) {
         para3.textContext = "Current Population: " + towns[i].currentPopulation;
         para4.textContext = "Annual Rainfall: " + towns[i].averageRainfall;
 
-    myArticle.appendChild(townName);
-    myArticle.appendChild(para1);
-    myArticle.appendChild(para2);
-    myArticle.appendChild(para3);
-    myArticle.appendChild(para4);
+        myArticle.appendChild(townName);
+        myArticle.appendChild(para1);
+        myArticle.appendChild(para2);
+        myArticle.appendChild(para3);
+        myArticle.appendChild(para4);
 
-    section.appendChild(myArticle);
+        section.appendChild(myArticle);
     }
 }
