@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>In the Know Weather | Storm Center</title> 
+        <meta name="description" content="Storm reporting page."> 
+        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="css/small-9.css">
+        <link rel="stylesheet" href="css/large-9.css">
+        <link rel="stylesheet" href="css/medium-9.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/intheknowlogo_dark.jpg" alt="logo" id="logo">
+            <section class="headings">
+                <h1>In the Know Weather</h1>
+                <div id="moto"><p>Accurate weather always.</p></div>
+            </section>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="preston-9.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li class="wayfinder"><a href="#">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+           <h2>Report a Storm</h2>
+            <h5>Let us know about wheather conditions in your area by filling out this form below.</h5>
+            <p><i>* indicates required fields.</i></p>
+            <form action="thanks.html">
+                <fieldset>
+                    <h2>Contact Information:</h2>
+                    <label for="name">*Full Name:<br/>
+                        <input type="text" id="name" class="box" name="name" required pattern="[a-zA-Z -._]{5,100}"><br/>
+                    </label>
+                    <label for="email">Email:<br/>
+                        <input type="email" id="email" name="email" class="box" placeholder="demoemail@email.com"><br/>
+                    </label>
+                    <label for="telephone">*Telephone Number:<br/>
+                        <input type="tel" id="telephone" class="box" name="number" required><br/>
+                    </label>
+                    <label for="zipcode">*Zip Code:<br/>
+                        <input type="number" id="zipcode" class="box" name="zipcode" required><br/>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <h2>Storm Information:</h2>
+                    <label for="storm-date"> Storm Date:<br/>
+                        <input type="date" id="storm-date" class="box" name="storm-date"><br/>
+                    </label>
+                    <label for="storm">Storm Type:<br/>
+                        <input list="storm-type" id="storm" class="box" name="storm-type"><br/>
+                        <datalist id="storm-type">
+                            <option value="Tornado">
+                            <option value="Hurricane">
+                            <option value="Flash Flood">
+                            <option value="Hale">
+                            <option value="Thunderstorm">
+                            <option value="Blizzard">
+                        </datalist>
+                    </label>
+                    <label for="severity">Storm Severity (1-10):<br/>
+                        <input type="range" id="severity" class="box" name="storm-severity" min="1" max="10" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span><br/>
+                    </label>
+                    <label for="region">Region:<br/>
+                        <select id="region" class="box">
+                            <option>--Select Region--</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                        </select><br/>
+                    </label>
+                    <label>Is the storm dangerous?</label><br/><br/>
+                    <div>
+                        <input type="radio" class="radio" id="yes" value="Yes" name="dangerous">
+                        <label for="yes">Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" id="maybe" value="Maybe" name="dangerous">
+                        <label for="maybe">Maybe</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" id="no" value="No" name="dangerous">
+                        <label for="no">No</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <h2>Additional information:</h2>
+                        <textarea id="addinfo" class="box" rows="10" cols="30"></textarea>
+                    <br/>
+                </fieldset>
+                <input type="submit" value="Submit Report" name="button" class="button">
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2019 all rights reserved | Jessica Duckworth | <span id="date"></span></p>
+        </footer>
+        <script src="javascript/date.js"></script>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/severity.js"></script>
+    </body>
+</html>
