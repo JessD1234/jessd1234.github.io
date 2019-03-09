@@ -2,7 +2,6 @@
 @media only screen and (min-width: 950px) {
     
     article {
-        background-color: rgb(216, 216, 216);
         padding: 15px;
         margin: 30px;
     }
@@ -14,6 +13,56 @@
     article h2 {
         line-height: 10px;
 
+    }
+
+    .preston-article {
+        background-color: rgb(216, 216, 216);
+    }
+
+    #towndata {
+        color: black;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-right: 50px;
+        padding-left: 60px;
+        margin-top: -45px; 
+        margin-left: 130px;
+        margin-right: 80px;
+        margin-bottom: 20px;
+    }
+
+    #homecontact {
+        background-color: rgb(216, 216, 216);
+        padding: 15px;
+        margin-bottom: -15px;
+    }
+
+    #home-banner {
+        margin-top: -16px;
+    }
+
+    .preston {
+        margin-left: 35px;
+        margin-right: -20px;
+    }
+
+    .townimgs img {
+        width: 300px;
+        position: relative;
+        margin: 20px;
+        top: -200px;
+        margin-bottom: -100px;
+    }
+
+    #welcomepara {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #towndata p {
+        text-align: center;
     }
 
     form {
