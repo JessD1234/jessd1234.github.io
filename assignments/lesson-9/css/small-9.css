@@ -85,6 +85,8 @@ figcaption {
     color: white;
 }
 
+
+
 .social-media {
     width: 40px;
     display: inline;
@@ -198,6 +200,10 @@ input {
         list-style-type: none;
         padding: 0;
         margin: 0;
+    }
+
+    .townimgs img {
+        display: none;
     }
 
     nav ul.hide {

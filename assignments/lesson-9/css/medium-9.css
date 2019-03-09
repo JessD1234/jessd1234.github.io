@@ -8,6 +8,11 @@
     justify-content: center;
 }
 
+.townimgs img {
+    display: none;
+}
+
+
 .galleryimages img {
     max-width: 100%;
 }
