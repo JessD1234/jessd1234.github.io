@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>In the Know Weather | Thanks</title> 
+        <meta name="description" content="Weather site for Preston."> 
+        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="css/small-10.css">
+        <link rel="stylesheet" href="css/medium-10.css">
+        <link rel="stylesheet" href="css/large-10.css">  
+    </head>
+    <body>
+        <header>
+            <img src="images/intheknowlogo_dark.jpg" alt="logo" id="logo">
+            <section class="headings">
+                <h1>In the Know Weather</h1>
+                <div id="moto"><p>Accurate weather always.</p></div>
+            </section>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="preston-10.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li class="wayfinder"><a href="storm-center.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Thank You.</h2>
+            <p>The information you have submitted will help us keep everyone safe and informed. We appreciate your time.</p>
+            <a href="storm-center.html" id="thankyou">Return to Storm Center</a>
+        </main>
+        <footer>
+            <p>&copy; 2019 all rights reserved | Jessica Duckworth | <span id="date"></span></p>
+        </footer>
+        <script src="javascript/date.js"></script>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/windchill.js"></script>
+    </body>
+</html>

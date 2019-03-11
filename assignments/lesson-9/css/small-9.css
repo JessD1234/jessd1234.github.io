@@ -202,9 +202,18 @@ input {
         margin: 0;
     }
 
-    /* .townimgs img {
-        display: none;
-    } */
+  .preston {
+      order: -2;
+  }
+
+  #towndata {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .soda-springs {
+      order: -1;
+  }
 
     nav ul.hide {
         display: none;
