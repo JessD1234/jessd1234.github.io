@@ -28,8 +28,8 @@
         padding-right: 50px;
         padding-left: 60px;
         margin-top: -45px; 
-        margin-left: 130px;
-        margin-right: 80px;
+        /* margin-left: 130px; */
+        /* margin-right: 80px; */
         margin-bottom: 20px;
     }
 
@@ -46,6 +46,13 @@
     .preston {
         margin-left: 35px;
         margin-right: -20px;
+        order: -2;
+    }
+
+    .soda-springs {
+        order: -1;
+        margin-left: 40px;
+        margin-right: -10px;
     }
 
     .townimgs img {

@@ -202,9 +202,9 @@ input {
         margin: 0;
     }
 
-    .townimgs img {
+    /* .townimgs img {
         display: none;
-    }
+    } */
 
     nav ul.hide {
         display: none;
