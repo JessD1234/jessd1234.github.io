@@ -34,44 +34,22 @@
             <section class="currentweather">
                 <h2>Weather Summary</h2>
                 <ul>
-                    <li><span id="temperature">48</span> &deg;F</li>
-                    <li>Sunny</li>
-                    <li>Today's high: 68 &deg;F</li>
-                    <li>Today's low: 48 &deg;F</li>
-                    <li>Humidity: 42%</li>
-                    <li>Windspeed: <span id="windspeed">3</span>mph</li>
+                    <li><span id="temperature"></span> &deg;F</li>
+                    <li id="description"></li>
+                    <li>Today's high: <span id="high"></span> &deg;F</li>
+                    <li>Today's low: <span  id="low"></span> &deg;F</li>
+                    <li>Humidity: <span id="humidity"></span>%</li>
+                    <li>Windspeed: <span id="windspeed"></span> mph</li>
                     <li id="windchill"></li>
                 </ul>
             </section>
             <img src="images/hero-image-required-large.jpg" alt="Sunny sky" class="banner-image">
             <section class="forecast">
                 <h2>5 Day Forecast</h2>
-                <table>
-                        <tr>
-                            <th>Monday</th>
-                            <th>Tuesday</th>
-                            <th>Wednesday</th>
-                            <th>Thursday</th>
-                            <th>Friday</th>
-                            <th>Saturday</th>
-                        </tr>
-                        <tr id="row2">
-                        <td><img src="images/sun2.png" alt="sun" class="weather-icon"></td>
-                        <td><img src="images/lightning-rain.jpg" alt="thunderstorms" class="weather-icon"></td>
-                        <td><img src="images/light-rain.jpg" alt="light raing" class="weather-icon"></td>
-                        <td><img src="images/sun2.png" alt="sun" class="weather-icon"></td>
-                        <td><img src="images/heavy-rain.jpg" alt="heavy rain" class="weather-icon"></td>
-                        <td><img src="images/light-rain.jpg" alt="light rain" class="weather-icon"></td>
-                        </tr>
-                        <tr>
-                            <td>73 &deg;</td>
-                            <td>68 &deg;</td>
-                            <td>63 &deg;</td>
-                            <td>70 &deg;</td>
-                            <td>69 &deg;</td>
-                            <td>72 &deg;</td>
-                        </tr>
-                </table>
+                
+                <article id="forecast">
+
+                </article>
             </section>
             <article class="preston-article">
                 <img src="images/pexels-photo-414171.jpeg" alt="The Valley" class="article-image">
@@ -79,8 +57,13 @@
                 <h3>By Jeremy Blachard</h3>
                 <p>Our anual photo contest begins next week! For three years, <i>In the Know </i> weather channel has hosted an annual photo contest where residents of Preston and nearby towns submit their best weather-related photos. Neighbors and friends vote for the best photo in their town, and then that finalist goes on to compete with other towns for first place! A small cash prize is rewarded to the winner. </p> 
                 <p>Contestants can submit their photos by email to photos_weather@mail.com with a title, their name, contact info, and a brief description. Please submit any photos you would like considered for the contest by August 4th. After they close, we will display the photos in our gallery for everyone to vote! Watch for more details to come!</p>
-                <p>Accompanying this article is last year's first place photo, <i>The Valley Lake</i> by Mariea Jenkins. Once again, great job Mariea!</p>
+                <p>Accompanying this article is last year's first place photo, <i>The Valley Lake</i> by Mariea Jenkins, taken at Glacier National Park. Once again, great job Mariea!</p>
+                <p>This breathtaking image is just one example of what you'll find amongst the photos submitted for this contest, so even if you aren't participating, keep an eye out for updates. They're worth viewing!</p>
             </article>
+            <section class="events">
+                <h2>Local Events</h2>
+                <p>Check below for dates of local events:</p>
+            </section>
             <section class="contactus">
                     <img src="images/2019-02-08.png" alt="map" id="map">
                 <div class="text">  
@@ -93,10 +76,12 @@
             </section>
         </main>
         <footer>
-            <p>&copy; 2019 all rights reserved | Jessica Duckworth | <span id="date"></span></p>
+            <p>&copy; 2019 all rights reserved | Jessica Duckworth |  Weather data from openweathermap.org | <span id="date"></span> </p>
         </footer>
         <script src="javascript/date.js"></script>
         <script src="javascript/hamburger.js"></script>
-        <script src="javascript/windchill.js"></script>
+        <script src="javascript/townevents.js"></script>
+        <script src="javascript/currentweather.js"></script>
+        <script src="javascript/forecast.js"></script>
     </body>
 </html>

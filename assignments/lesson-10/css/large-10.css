@@ -191,6 +191,15 @@
         width: 7em;
     }
 
+    #forecast {
+        display: flex;
+        justify-content: center;
+    }
+
+    #forecast p {
+        font-size: 30px;
+    }
+
     .article-image {
         float: right;
         right: 60px;
