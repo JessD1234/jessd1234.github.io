@@ -22,7 +22,7 @@ function updateWeather(weatherData) {
     document.getElementById("temperature").innerHTML = Math.round(main.temp);
     document.getElementById("description").innerHTML = weather[0].description;
     document.getElementById("high").innerHTML = Math.round(main.temp_max);
-    document.getElementById("low").innerHTML = main.temp_min;
+    document.getElementById("low").innerHTML = Math.round(main.temp_min);
     document.getElementById("humidity").innerHTML = main.humidity;
     document.getElementById("windspeed").innerHTML = wind.speed;
 }
