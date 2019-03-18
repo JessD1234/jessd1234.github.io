@@ -16,7 +16,7 @@ function forecast(forecastData) {
     /*var info = forecastData["list"];*/
     
     
-    var weatherPictures = ["<img src=\"images/cloudy.jpg\" class=\"weather-icon\">", "<img src=\"imgaes/heavy-rain.jpg\" class=\"weather-icon\">", "<img src=\"images/lightning-rain.jpg\" class=\"weather-icon\">", "<img src=\"images/light-rain.jpg\" class=\"weather-icon\">", "<img src=\"imgaes/misty.jpg\" class=\"weather-icon\">", "<img src=\"imgaes/snow.jpg\" class=\"weather-icon\">", "<img src=\"images/sun2.png\" class=\"weather-icon\">", "<img src=\"images/broken-clouds.jpg\" class=\"weather-icon\">", "<img src=\"images/part-sun.jpg\" class=\"weather-icon\">"];
+    var weatherPictures = ["<img src=\"images/cloudy.jpg\" class=\"weather-icon\">", "<img src=\"imgaes/heavy-rain.jpg\" class=\"weather-icon\">", "<img src=\"images/lightning-rain.jpg\" class=\"weather-icon\">", "<img src=\"images/light-rain.jpg\" class=\"weather-icon\">", "<img src=\"imgaes/misty.jpg\" class=\"weather-icon\">", "<img src=\"images/snow.jpg\" class=\"weather-icon\">", "<img src=\"images/sun2.png\" class=\"weather-icon\">", "<img src=\"images/broken-clouds.jpg\" class=\"weather-icon\">", "<img src=\"images/part-sun.jpg\" class=\"weather-icon\">"];
 
     for (i = 0; i < forecastData.list.length; i++ ) {
         var dateTime = forecastData.list[i].dt_txt;
@@ -46,7 +46,7 @@ function forecast(forecastData) {
             if (iconcode === "01d") {
                 weatherPic.innerHTML = weatherPictures[6];
             }
-                else if (iconcode === "04n") {
+                else if (iconcode === "04d") {
                     weatherPic.innerHTML = weatherPictures[0];
                 }
                 else if (iconcode === "11d") {
