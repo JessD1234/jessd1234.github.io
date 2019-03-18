@@ -257,7 +257,7 @@ input {
 
     .currentweather {
         font-family: calibri, sans-serif;
-        background-color: rgba(62, 147, 208);
+        background-color: #006494;
         position: absolute;
         width: 200px;
         left: 20px;
