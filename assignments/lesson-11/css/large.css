@@ -1,0 +1,267 @@
+
+@media only screen and (min-width: 950px) {
+    
+    article {
+        padding: 15px;
+        margin: 30px;
+    }
+    
+    article p {
+        text-align: left;
+    }
+
+    article h2 {
+        line-height: 10px;
+
+    }
+
+    /* .preston-article {
+        background-color: rgb(216, 216, 216);
+    } */
+
+    #towndata {
+        color: black;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-right: 50px;
+        padding-left: 60px;
+        margin-top: -45px; 
+        margin-bottom: 20px;
+    }
+
+    #homecontact {
+        padding: 15px;
+        margin-bottom: -15px;
+    }
+
+    #home-banner {
+        margin-top: -16px;
+    }
+
+    .preston {
+        margin-left: 35px;
+        margin-right: -20px;
+        order: -2;
+    }
+
+    .soda-springs {
+        order: -1;
+        margin-left: 40px;
+        margin-right: -10px;
+    }
+
+    #welcomepara {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    #towndata p {
+        text-align: center;
+    }
+
+    form {
+        margin-left: 75px;
+        margin-right: 75px;
+        padding: 15px;
+    }
+
+    .button {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    fieldset {
+        border: 5px solid #006494;
+        margin: 20px;
+    }
+        
+    th {
+        font-family: "Arapey", serif;
+        font-size: 25px;
+        color: #014b6d;
+        text-align: center;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav {
+        background-color: #006494;
+        text-align: center;
+        font-family: calibiri, sans-serif;
+        margin-top: -20px;
+    }
+
+    nav li {
+        display: inline-flex;
+        justify-content: space-between;
+        /*margin-left: 5px;
+        margin-right: 5px;*/
+    }
+
+    nav ul.hide {
+        display: block;
+
+    }
+
+    nav a {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    nav li:hover {
+        background-color: #014b6d;
+        font-style: italic;
+    }
+
+    table {
+        margin: auto;
+    }
+    
+    td {
+        font-family: calibri, sans-serif;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    footer {
+        clear: both;
+    }
+
+    .headings {
+	    display: inline-block;
+	    vertical-align: middle;
+        margin: 10px;
+        color: white;
+        font-family: "Arapey", serif;
+    }
+
+    .headings h1 {
+        font-size: 50px;
+        line-height: 5px;
+        color: white;
+    }
+
+    .currentweather {
+        font-family: calibri, sans-serif;
+        background-color:  rgba(62, 147, 208, .7);
+        position: absolute;
+        width: 400px;
+        top: 365px;
+        left: 35px;
+        padding: 10px;
+        font-size: 30px;
+    }
+    
+    .contactus {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        grid-gap: 0px;
+        align-items: center;
+        justify-items: center;
+        padding: 15px;
+        margin-bottom: -15px;
+    }
+
+    .contactus p {
+        text-align: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .social-media {
+        width: 40px;
+        display: inline;
+        
+    }
+
+    .currentweather h2 {
+        font-size: 40px;
+    }
+
+    
+    .weather-icon {
+        width: 7em;
+    }
+
+    #forecast {
+        display: flex;
+        justify-content: center;
+    }
+
+    #forecast p {
+        font-size: 30px;
+    }
+
+    .article-image {
+        float: right;
+        right: 60px;
+        margin: 20px;
+        width: 500px;
+    }
+
+    .article-image2 {
+        float: left;
+        left: 60px;
+        margin: 20px;
+        width: 500px;
+    }
+
+    div.galleryimages {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+
+    .galleryimages img:hover {
+        box-shadow: 0 0 50px #333;
+    
+    }
+    
+    .galleryimages img {
+        max-width: 100%;
+    }
+
+    #logo {
+        width: 120px;
+        display: inline-block;
+	    vertical-align: middle;
+	    margin: 10px; 
+    }
+
+    #moto {
+        font-style: italic;
+        width: 320px;
+        padding: 0px;
+        
+    } 
+
+    #date {
+        font-family: Calibri, sans-serif;
+        display: inline;
+    }
+
+    #map {
+        width: 400px;
+        
+    }
+    
+    #banner-image {
+        width: 80em;
+        margin: 10px;
+    }
+    
+    .wayfinder {
+        background-color: #014b6d;
+        font-style: italic;
+        color: black;
+    }
+}

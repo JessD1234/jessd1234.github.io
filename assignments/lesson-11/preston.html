@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>In the Know Weather | Preston</title> 
+        <meta name="description" content="Weather site for Preston."> 
+        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/intheknowlogo_dark.jpg" alt="logo" id="logo">
+            <section class="headings">
+                <h1>In the Know Weather</h1>
+                <div id="moto"><p>Accurate weather always.</p></div>
+            </section>
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="home.html">Home</a></li>
+                <li class="wayfinder"><a href="#">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="storm-center.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1 id="town-name">Preston Idaho</h1>
+            <section class="currentweather">
+                <h2>Weather Summary</h2>
+                <ul>
+                    <li>Current Weather:</li>
+                    <li><span id="temperature"></span> &deg;F, <span id="description"></span></li>
+                    <li>Today's high: <span id="high"></span> &deg;F</li>
+                    <li>Today's low: <span  id="low"></span> &deg;F</li>
+                    <li>Humidity: <span id="humidity"></span>%</li>
+                    <li>Windspeed: <span id="windspeed"></span> mph</li>
+                    <li id="windchill"></li>
+                </ul>
+            </section>
+            <img src="images/hero-image-required-large.jpg" alt="Sunny sky" class="banner-image">
+            <section class="forecast">
+                <h2>5 Day Forecast</h2>
+                
+                <article id="forecast">
+
+                </article>
+            </section>
+            <article class="preston-article">
+                <img src="images/dark-evening-lightning-66867.jpg" alt="lightning at night" class="article-image">
+                <h2>A Bit About Thunderstorms</h2>
+                <h3>By Jeremy Blachard</h3>
+                <p>As summer approaches, our thoughts turn to days of warm sunshine and bright blue skies. But that's not all the warm tempuratures bring&ndash;we'll also see the return of summer thunderstorms. With this in mind, we did a little research into these exceptionally noisy storms, and thought we'd share these interesting facts:</p>
+                <p><b>There are different types of thunderstorms.</b> The storms we usually see are what are known as one-cell storms. They tend to be short, sometimes intense storms, and can trigger others in the area from their leftover energy. There are multi-cell storms, the stronger version of a one-cell storm. These will last longer and usually cover a larger area. The thunderstorms most likely to cause severe weather such as tornados are known as supercell storms. Watch out for those!</p>
+                <p><b>Thunderstorms weigh a lot!</b> When we look up at the sky we often don't consider those fluffy cottonballs to weigh much, but according to <a href="http://mentalfloss.com/article/49786/how-much-does-cloud-weigh">mentalfloss.com</a>, one cumulus cloud can actually weigh over one million pounds! All that condensed water in one place really weighs a lot!</p>
+                <p><b>It's actaully possible to rain animals.</b> Luckily, it's highly unlikely we'll ever see it rain cats and dogs as the old saying goes, but the phrase has some merit. When a tornado passes over a pond or stream, it's possible for small creatures like frogs or fish to be picked up from the water and dropped over our heads later. How weird would that be?</p>
+            </article>
+            <section class="events">
+                <h2>Local Events</h2>
+                <p>Check below for dates of local events:</p>
+            </section>
+            <section class="contactus">
+                    <img src="images/2019-02-08.png" alt="map" id="map">
+                <div class="text">  
+                <h2>Contact Us</h2>
+                    <p>Do you have questions, comments, feedback? Reach us at 315-626-9187 or intheknow@email.com. We would love to hear from you! You can also follow us on social media.</p>
+                    <a target="_blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" class="social-media"></a>
+                    <a target="_blank" href="https://www.pinterest.com/"><img src="images/pinterest.png" alt="pinterest" class="social-media"></a>
+                    <a target="_blank" href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube" class="social-media"></a>
+                </div>                      
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2019 all rights reserved | Jessica Duckworth |  Weather data from openweathermap.org | <span id="date"></span> </p>
+        </footer>
+        <script src="javascript/date.js"></script>
+        <script src="javascript/hamburger.js"></script>
+        <script src="javascript/townevents.js"></script>
+        <script src="javascript/currentweather.js"></script>
+        <script src="javascript/forecast.js"></script>
+    </body>
+</html>
