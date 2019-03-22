@@ -209,6 +209,10 @@
         width: 500px;
     }
 
+    .forecast {
+        margin-top: 70px;
+    }
+
     .article-image2 {
         float: left;
         left: 60px;
