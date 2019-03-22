@@ -24,7 +24,7 @@
 
 .currentweather {
     font-family: calibri, sans-serif;
-    background-color: rgba(62, 147, 208);
+    background-color: rgb(62, 147, 208);
     position: absolute;
     width: 250px;
     left: 20px;
