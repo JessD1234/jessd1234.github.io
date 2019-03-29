@@ -1,7 +1,7 @@
 @media screen and (min-width: 721px) and (max-width: 999px) {
 
 img {
-    align-content: center;
+    padding-left: 20px;
 }
 
 .logo {
