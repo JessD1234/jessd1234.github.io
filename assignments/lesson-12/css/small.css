@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Lovers+Quarrel|Raleway');
+
+/* Header Section */
+@media only screen and (max-width: 999px) {
+    nav ul.hide {
+        display: none;
+    }
+
+    nav ul li a {
+        display: block;
+        border-top: 1px solid rgba(0,0,0,0.5);
+        text-decoration: none;
+        color: white;
+        padding: .8rem 2%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #slogan {
+        display: none;
+    }
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    margin: .2rem 2%;
+    font-size: 1.6rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav {
+    background-color: #542a27;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #d9be77;
+    font-style: italic;
+}
+
+nav ul li.wayfinder a {
+    background-color: #d9be77;
+    font-style: italic;
+    color: black;    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner-img {
+    display: none;
+}
+
+.logo {
+    width: 200px;
+}
+
+#welcome-text {
+    padding-left: 10px;
+}
+
+/*Font Tags*/
+
+h1, h2, h3 {
+    font-family: "Lovers Quarrel", cursive;
+    font-weight: lighter;
+    color: #542a27;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 25px;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 10px;
+}
+
+h3 {
+    font-size: 38px;
+    line-height: 10px;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+}
+
+/*body style*/
+
+main li {
+    font-family: "Raleway", sans-serif;
+    padding: 3px;
+}
+
+p {
+    font-size: 17px;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    background-color: #d9be77;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+}
+
+hr {
+    background-color: #542a27;
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.social-icons {
+    width: 40px;    
+    margin: 20px;
+}
+
+#social-box {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    margin-top: 80px;
+}
+
+.logo {
+    float: left;
+    width: 75px;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-top: -30px;
+    
+}
+
+
+

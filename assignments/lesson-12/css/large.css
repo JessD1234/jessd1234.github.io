@@ -1,0 +1,88 @@
+@media only screen and (min-width: 1000px) { 
+
+.banner-img {
+    display: block;
+    width: 100%;
+}
+
+nav {
+    
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background-color: #542a27;
+}
+
+nav button {
+    display: none;
+}
+
+nav li {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+nav a {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    padding-left: 250px;
+    padding-right: 50px;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+main {
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 0px;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+.welcome-section {
+    line-height: 0px;   
+}
+
+#welcome-text {
+    padding-top: 10px;
+}
+
+.new-location {
+    clear: both;
+}
+
+.new-location img {
+    float: left;
+    width: 420px;
+    margin-right: 50px;
+    margin-left: 0px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+main {
+    margin-top: 80px;
+}
+
+#article2-image {
+    float: right;
+    width: 455px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+}
+

@@ -8,6 +8,7 @@ h1 {
     font-family: "Arapey", serif;
     font-size: 46px;
     color: #006494; 
+    font-weight: lighter;
 }
 
 h2 {
@@ -15,6 +16,7 @@ h2 {
     font-size: 30px;
     color: #006494;
     line-height: 50px; 
+    font-weight: lighter;
 }
 
 .events-article {
@@ -29,12 +31,14 @@ h3 {
     font-family: "Arapey", serif;
     font-size: 20px;
     color: #006494; 
+    font-weight: lighter;
 }
 
 h4 {
     font-family: "Arapey", serif;
     font-size: 18px;
     color: #006494; 
+    font-weight: lighter;
 }
 
 h5 {
