@@ -30,6 +30,7 @@ nav button {
     border: none;
     margin: .2rem 2%;
     font-size: 1.6rem;
+    width: 50px;
 }
 
 nav ul {
