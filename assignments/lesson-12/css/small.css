@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lovers+Quarrel|Raleway');
 
+nav ul.hide2 {
+    display: none;
+}
+
 /* Header Section */
 @media only screen and (max-width: 999px) {
     nav ul.hide {
@@ -23,14 +27,27 @@
     #slogan {
         display: none;
     }
+
+    .dropdown {
+        display: none;
+    }
 }
 
-nav button {
+#button1 {
     background-color: transparent;
     border: none;
     margin: .2rem 2%;
     font-size: 1.6rem;
     width: 50px;
+}
+
+
+
+.button2 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    
 }
 
 nav ul {
@@ -45,7 +62,7 @@ nav {
 
 nav ul li a:hover {
     background-color: #d9be77;
-    font-style: italic;
+    
 }
 
 nav ul li.wayfinder a {

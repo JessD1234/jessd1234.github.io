@@ -13,8 +13,51 @@ nav {
     background-color: #542a27;
 }
 
-nav button {
+#button1 {
     display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #542a27;
+     display: none;
+    width: 100%;
+    list-style: none;
+}
+
+.small-menu {
+    display: none;
+}
+
+.dropdown-button {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+}
+
+.dropdown .dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown .dropdown-menu a {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0px;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    max-width: 100%;
 }
 
 nav li {

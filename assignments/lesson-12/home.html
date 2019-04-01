@@ -14,13 +14,20 @@
         <header>
             <img src="images/bed-cushion-indoors-1097439.jpg" alt="hotel room" class="banner-img">
             <nav>
-                    <button onclick="toggleMenu()">&#9776;</button>
+                    <button onclick="toggleMenu()" id="button1">&#9776;</button>
                 <ul id="primaryNav" class="hide">
                     <li class="wayfinder"><a href="#">Home</a></li>
                     <li><a href="#">Temples</a></li>
-                    <li ><a href="#">Services</a></li>
-                    <li><a href="#">Reception Rooms</a></li>
-                    <li><a href="#">Full-Time Missionaries</a></li>
+                    <li class="small-menu"><a href="#">Reception Rooms</a></li>      
+                    <li class="small-menu"><a href="#">Full-Time Missionaries</a></li>              
+                    <!-- <li><button onclick="toggleMenu2()" class="button2">Services &rsaquo;</button></li> -->
+                    <div class="dropdown">
+                        <li><a href="#">Services &rsaquo;</a></li> 
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Reception Rooms</a></li>
+                            <li><a href="#">Full-Time Missionaries</a></li>
+                        </ul>
+                    </div>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </nav>
