@@ -31,6 +31,10 @@ nav ul.hide2 {
     .dropdown {
         display: none;
     }
+
+    hr {
+        display: none;
+     }
 }
 
 #button1 {
@@ -146,14 +150,7 @@ footer p {
     text-align: center;
 }
 
-hr {
-    background-color: #542a27;
-    width: 150px;
-    height: 5px;
-    border-radius: 5px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
+
 
 .social-icons {
     width: 40px;    
