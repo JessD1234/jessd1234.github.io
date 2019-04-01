@@ -62,13 +62,14 @@ nav {
 
 nav ul li a:hover {
     background-color: #d9be77;
-    
+    color: #542a27;
+    font-weight: bold;
 }
 
 nav ul li.wayfinder a {
     background-color: #d9be77;
-    font-style: italic;
-    color: black;    
+    font-weight:bold;
+    color: #542a27;   
 }
 
 nav a {
