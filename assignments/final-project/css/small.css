@@ -132,6 +132,15 @@ p {
     font-family: "Raleway", sans-serif;
 }
 
+.intro h1 {
+    text-align: center;
+    line-height: 50px;
+}
+
+.intro h2 {
+    text-align: center;
+    line-height: 50px;
+}
 /*body style*/
 
 main li {
@@ -162,8 +171,6 @@ footer p {
     text-align: center;
 }
 
-
-
 .social-icons {
     width: 40px;    
     margin: 20px;
@@ -188,4 +195,36 @@ article {
 }
 
 
+.temple-logo {
+    float: left;
+    width: 175px;
+    padding-left: 150px;
+    padding-right: 170px;
+    margin-top: 30px;
+    
+}
+
+/*particular item styles*/
+
+.button-link {
+    background-color: #d9be77;
+    color: #542a27;
+    border: 2px solid #542a27;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Raleyway", sans-serif;
+    font-weight: bold;
+}
+
+#small-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.weather {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+}
 
