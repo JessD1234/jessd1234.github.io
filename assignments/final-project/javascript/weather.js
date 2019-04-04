@@ -3,12 +3,16 @@ var templeName = document.getElementById("temple-name").innerHTML;
 if (templeName ==="Columbus Ohio Temple") {
 var apiURLstring = "https://api.openweathermap.org/data/2.5/weather?id=4509177&units=imperial&APPID=93f326df890de32f33a0b6e6a3a45ee9"; }
 
-else if (templeName==="Fish Haven Idaho") {
-    var apiURLstring = "https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=93f326df890de32f33a0b6e6a3a45ee9";
+else if (templeName==="San Diego California Temple") {
+    var apiURLstring = "https://api.openweathermap.org/data/2.5/weather?id=5391811&units=imperial&APPID=93f326df890de32f33a0b6e6a3a45ee9";
 }
 
-else if (templeName === "Soda Springs Idaho") {
-    var apiURLstring = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=93f326df890de32f33a0b6e6a3a45ee9";
+else if (templeName === "Rome Italy Temple") {
+    var apiURLstring = "https://api.openweathermap.org/data/2.5/weather?id=3169061&units=imperial&APPID=93f326df890de32f33a0b6e6a3a45ee9";
+}
+
+else if (templeName === "Sao Paulo Brazil Temple") {
+    var apiURLstring = "https://api.openweathermap.org/data/2.5/weather?id=3448439&units=imperial&APPID=93f326df890de32f33a0b6e6a3a45ee9";
 }
 
 weatherRequest.open("GET", apiURLstring, "true" );

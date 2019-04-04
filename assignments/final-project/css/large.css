@@ -193,5 +193,23 @@ main {
     justify-content: space-around;
     margin-top: 150px;
 }
+
+.schedule article {
+    margin-top: 0px;
+}
+
+#sandiego-contact {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#brazil-contact {
+     padding-left: 20px;
+    padding-right: 10px;
+}
+.weather {
+    margin: 0px;
+    padding: 10px;
+}
 }
 
