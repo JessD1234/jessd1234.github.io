@@ -47,6 +47,11 @@ nav ul.hide2 {
     .indented {
         padding-left: 35px;
     }
+
+    .intro h2{
+        line-height: 50px;
+        text-align: center;
+    }
 }
 
 #button1 {
@@ -240,3 +245,16 @@ article {
     margin: 5px;
 }
 
+.schedule {
+    text-align: center;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.schedule li {
+    list-style-type: none;
+}
+
+.schedule ul {
+    padding-left: 0px;
+}

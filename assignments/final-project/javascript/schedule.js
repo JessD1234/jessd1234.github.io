@@ -1,6 +1,6 @@
 var scheduleSection = document.querySelector(".schedule");
 
-                var requestURL = "https://api.myjson.com/bins/urqww";
+                var requestURL = "https://api.jsonbin.io/b/5ca5488424f5074645ec64f0";
                 var request = new XMLHttpRequest();
                 request.open("GET", requestURL);
                 request.responseType = "json";
@@ -9,7 +9,7 @@ var scheduleSection = document.querySelector(".schedule");
                 request.onload = function () {
                     var scheduleInfo = request.response;
                     var templeName = document.getElementById("temple-name").innerHTML;
-                    if (templeName === "Columbus Ohio") {
+                    if (templeName === "Columbus Ohio Temple") {
                     showScheduleColumbus(scheduleInfo);
 
                         }
@@ -39,7 +39,7 @@ function showScheduleColumbus(scheduleInfo) {
             }
 
             scheduleArticle.appendChild(list);
-            sceduleSection.appendChild(scheduleArticle);
+            scheduleSection.appendChild(scheduleArticle);
             
         }
 

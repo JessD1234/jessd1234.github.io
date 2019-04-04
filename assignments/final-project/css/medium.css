@@ -23,5 +23,14 @@ h2 {
     max-width: 100%;
     margin-left: -20px;
 }
+
+#temple-name {
+    margin-top: 175px;
+}
+
+#temple-img {
+    width: 500px;
+    margin-left: 85px;
+}
     
 }

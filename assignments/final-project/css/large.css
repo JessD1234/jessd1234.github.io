@@ -6,11 +6,12 @@
 }
 
 nav {
-    
+    display: flex;
     text-align: center;
     margin-top: -20px;
     margin-bottom: 20px;
     background-color: #542a27;
+    justify-content: center;
 }
 
 #button1 {
@@ -20,6 +21,21 @@ nav {
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-right: -60px;
+    margin-left: 10px;
+    width: 171.5px;    
+}
+
+.dropdown ul {
+    padding: 0px;
+}
+
+#services {
+    margin-right: -35px;
+}
+
+#temples {
+    margin-left: 5px;
 }
 
 .dropdown-menu {
@@ -29,7 +45,7 @@ nav {
     margin: 0;
     padding: 0;
     background-color: #542a27;
-     display: none;
+    display: none;
     width: 100%;
     list-style: none;
 }
@@ -74,6 +90,11 @@ nav li {
     justify-content: space-between;
 }
 
+nav ul {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
 nav a {
     padding-left: 40px;
     padding-right: 40px;
@@ -98,6 +119,10 @@ main {
 
 .intro h1 {
     text-align: center;
+}
+
+.intro {
+    margin-top: -10px;
 }
 
 .intro h2 {
@@ -157,8 +182,9 @@ main {
 
 .button-link {
     position: relative;
-    top: -10px;
+    top: -120px;
     left: 210px;
+    margin-bottom: 0px;
 }
 
 .info-section {
