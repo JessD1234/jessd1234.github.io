@@ -112,7 +112,7 @@ nav a {
 
 /*Font Tags*/
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: "Lovers Quarrel", cursive;
     font-weight: lighter;
     color: #542a27;
@@ -124,13 +124,18 @@ h1 {
 }
 
 h2 {
-    font-size: 62px;
+    font-size: 64px;
     line-height: 10px;
 }
 
 h3 {
-    font-size: 38px;
+    font-size: 60px;
     line-height: 10px;
+}
+
+h4 {
+   font-size: 50px;
+   line-height: 10px;
 }
 
 p {
@@ -149,7 +154,10 @@ p {
 
 main h1 {
     text-align: center;
+    line-height: 50px;
 }
+
+
 /*body style*/
 
 main li {
