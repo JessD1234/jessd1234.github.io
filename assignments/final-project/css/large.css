@@ -85,15 +85,6 @@ nav {
     max-width: 100%;
 }
 
-hr {
-    background-color: #542a27;
-    width: 150px;
-    height: 5px;
-    border-radius: 5px;
-    margin-top: 80px;
-    margin-bottom: 100px;
-}
-
 nav li {
     display: inline-flex;
     justify-content: space-between;
@@ -255,6 +246,10 @@ main {
 }
 .package2 {
     margin-left: 30px;
+}
+
+#package {
+    margin-left: 350px;
 }
 }
 

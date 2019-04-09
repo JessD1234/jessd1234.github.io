@@ -32,9 +32,6 @@ nav ul.hide2 {
         display: none;
     }
 
-    hr {
-        display: none;
-     }
 
      #temples-button {
         display: block;
@@ -277,5 +274,4 @@ article {
 
 #reception {
     width: 500px;
-    margin-left: 350px;
 }
