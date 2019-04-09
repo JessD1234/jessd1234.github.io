@@ -27,8 +27,12 @@ h2 {
 
 .welcome-section { 
     position: relative;
-    margin-top: -200px;
+    margin-top: -220px;
     margin-left: 30px;
+}
+
+.welcome-section h1 {
+    line-height: 10px;
 }
 
 #temple-name {
@@ -38,6 +42,10 @@ h2 {
 #temple-img {
     width: 500px;
     margin-left: 85px;
+}
+
+nav {
+    clear: both;
 }
     
 }
