@@ -2,20 +2,28 @@
 
 .banner-img {
     display: block;
+    opacity: .6;
     width: 100%;
 }
 
 nav {
     display: flex;
     text-align: center;
-    margin-top: -20px;
+    /* margin-top: -20px; */
+    margin-top: 118px;
     margin-bottom: 20px;
     background-color: #542a27;
     justify-content: center;
+    clear: both;
 }
 
 #button1 {
     display: none;
+}
+
+#slogan {
+    font-weight: bold;
+    font-style: italic;
 }
 
 .dropdown {
@@ -32,6 +40,7 @@ nav {
 
 #services {
     margin-right: -35px;
+    margin-left: 60px;
 }
 
 #temples {
@@ -92,7 +101,7 @@ nav li {
 
 nav ul {
     margin-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 nav a {
@@ -140,6 +149,9 @@ h2 {
 
 .welcome-section {
     line-height: 0px;   
+    position: relative;
+    margin-top: -330px;
+    margin-left: 30px;
 }
 
 #welcome-text {
@@ -210,6 +222,39 @@ main {
 .weather {
     margin: 0px;
     padding: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.options ul {
+    padding-left: 0px;
+
+} 
+
+#intropic {
+    float: right;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+#cake {
+    float: right;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.package1 {
+    margin-right: 30px;
+}
+
+.package1 ul, .package2 ul {
+    margin-left: 50px;
+}
+.package2 {
+    margin-left: 30px;
 }
 }
 

@@ -129,12 +129,12 @@ h2 {
 }
 
 h3 {
-    font-size: 60px;
+    font-size: 55px;
     line-height: 10px;
 }
 
 h4 {
-   font-size: 50px;
+   font-size: 48px;
    line-height: 10px;
 }
 
@@ -265,4 +265,17 @@ article {
 
 .schedule ul {
     padding-left: 0px;
+}
+
+#intropic {
+    width: 450px;
+}
+
+#cake {
+    width: 500px;
+}
+
+#reception {
+    width: 500px;
+    margin-left: 350px;
 }
