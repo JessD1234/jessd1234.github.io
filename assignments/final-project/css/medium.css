@@ -25,10 +25,9 @@ h2 {
     opacity: .6;
 }
 
-.welcome-section {
-    line-height: 0px;   
+.welcome-section { 
     position: relative;
-    margin-top: -330px;
+    margin-top: -200px;
     margin-left: 30px;
 }
 
