@@ -275,3 +275,22 @@ article {
 #reception {
     width: 500px;
 }
+
+/*forms*/
+
+fieldset {
+    border: none;
+   text-align: center;
+   margin: 20px;
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.hotel-room {
+    width:500px;
+}

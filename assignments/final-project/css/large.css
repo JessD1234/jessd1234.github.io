@@ -251,5 +251,16 @@ main {
 #package {
     margin-left: 350px;
 }
+
+fieldset {
+    clear: both;
+    border: 1px solid #542a27;
+}
+
+.hotel-room {
+    float: right;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
 }
 
