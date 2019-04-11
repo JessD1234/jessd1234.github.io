@@ -60,5 +60,11 @@ div.playgallery {
 .playgallery img {
     max-width: 100%
 }
+
+#hotel-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
     
 }

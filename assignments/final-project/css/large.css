@@ -278,16 +278,17 @@ div.playgallery {
 }
 
 #hotel-contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding-left: 60px;
 }
 
 #map {
     float: right;
     padding-top: 50px;
     padding-bottom: 30px;
-    padding-left: 30px;
+    padding-left: 49px;
 }
 }
 
