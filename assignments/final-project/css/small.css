@@ -309,3 +309,22 @@ label {
 .hotel-room {
     width:500px;
 }
+
+/*gallery*/
+
+.playgallery {
+    display: grid;
+    justify-content: center;
+}
+
+div.playgallery {
+    grid-template-columns: repeat(1, 1fr);
+}
+.playgallery img {
+    max-width: 100%
+}
+
+figcaption {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}

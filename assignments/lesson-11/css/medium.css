@@ -1,10 +1,7 @@
 @media only screen and (min-width: 721px) and (max-width: 999px) {
 
     div.galleryimages {
-  /* grid-template-columns: repeat(2, 1fr);
-   justify-items: start;*/
-    
-    grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     justify-content: center;
 }
 

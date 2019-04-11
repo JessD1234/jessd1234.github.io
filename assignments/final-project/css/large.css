@@ -263,5 +263,14 @@ fieldset {
     padding-left: 50px;
     padding-bottom: 50px;
 }
+
+div.playgallery {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.playgallery img {
+    max-width: 100%
+}
 }
 

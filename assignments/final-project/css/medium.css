@@ -51,5 +51,14 @@ nav {
 .hotel-room {
     padding-left: 70px;
 }
+
+div.playgallery {
+    grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.playgallery img {
+    max-width: 100%
+}
     
 }
