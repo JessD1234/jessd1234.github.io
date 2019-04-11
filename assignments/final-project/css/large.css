@@ -272,5 +272,22 @@ div.playgallery {
 .playgallery img {
     max-width: 100%
 }
+
+#reception {
+    padding-left: 300px;
+}
+
+#hotel-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#map {
+    float: right;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
 }
 

@@ -288,6 +288,14 @@ article {
     width: 500px;
 }
 
+#hotel-contact li {
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+#map {
+    width: 600px;
+}
 /*forms*/
 
 fieldset {
