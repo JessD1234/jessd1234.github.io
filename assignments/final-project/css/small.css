@@ -154,7 +154,9 @@ main h1 {
     line-height: 50px;
 }
 
-
+#bookingp {
+    text-align: center;
+}
 /*body style*/
 
 main li {
@@ -258,6 +260,11 @@ article {
     margin: 10px;
 }
 
+.weather li {
+    list-style-type: none;
+    margin-left: -30px;
+}
+
 .contact-info li {
     list-style-type: none;
     text-align: center;
@@ -320,6 +327,14 @@ label {
 
 .hotel-room {
     width:500px;
+}
+
+.radio {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: white;
+    margin: 5px;
 }
 
 /*gallery*/

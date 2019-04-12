@@ -65,7 +65,7 @@
         </header>
         <main>
             <h1>Book a Stay With Us</h1>
-            <p>Ready to try the Hotel Inn & Suites experience for yourself? Please submit the form below to reserve a room.</p>
+            <p id="bookingp">Ready to try the Hotel Inn & Suites experience for yourself? Please submit the form below to reserve a room.</p>
             <form action="reserved.html">
                 <fieldset>
                     <h2>Reservations Form:</h2>
@@ -79,7 +79,7 @@
                         <input type="tel" id="telephone" class="box" name="number"><br/>
                     </label>
                     <label for="home-country">Home State or Country:<br/>
-                        <input type="text" id="country" name="home-country"><br/>
+                        <input type="text" id="home-country" name="home-country"><br/>
                     </label>
                     <label for="location">Hotel Location:<br/>
                         <select id="location">
@@ -89,32 +89,32 @@
                             <option value="Sao Paulo, Brazil">Sao Paulo, Brazil</option>
                             <option value="Rome, Italy">Rome, Italy</option>
                         </select><br/>
-                        <label for="rooms">Number of Rooms: (Max of 4)<br/>
+                    </label>
+                        <label for="roomammount">Number of Rooms: (Max of 4)<br/>
                             <input type="text" id="roomammount" name="roomammount"><br/>
                         </label>
                         <label>Room Type:</label><br/>
                     <div>
-                        <input type="radio" class="radio" id="regular-king" value="single bed king" name="dangerous">
-                        <label for="yes">Single Bed King</label>
+                        <input type="radio" class="radio" id="regular-king" value="single bed king" name="roomtype">
+                        <label for="regular-king">Single Bed King</label>
                     </div>
                     <div>
-                        <input type="radio" class="radio" id="maybe" value="Maybe" name="dangerous">
-                        <label for="maybe">Two Queen Beds</label>
+                        <input type="radio" class="radio" id="two-queen" value="Maybe" name="roomtype">
+                        <label for="two-queen">Two Queen Beds</label>
                     </div>
                     <div>
-                        <input type="radio" class="radio" id="no" value="No" name="dangerous">
-                        <label for="no">Suite*</label>
+                        <input type="radio" class="radio" id="suite" value="No" name="roomtype">
+                        <label for="suite">Suite*</label>
                     </div>
-                    <label for="storm-date">Start Date:<br/>
-                        <input type="date" id="storm-date" class="box" name="storm-date"><br/>
+                    <label for="start-date">Start Date:<br/>
+                        <input type="date" id="start-date" class="box" name="start-date"><br/>
                     </label>
-                    <label for="storm-date">End Date:<br/>
-                        <input type="date" id="storm-date" class="box" name="storm-date"><br/>
+                    <label for="end-date">End Date:<br/>
+                        <input type="date" id="end-date" class="box" name="end-date"><br/>
                     </label>
                         <label for="additional-info">Additional Info:<br/>
-                            <textarea id="addinfo" class="box" rows="8" cols="38"  placeholder="Please include any special accomodations you may need."></textarea>
+                            <textarea id="additional-info" class="box" rows="8" cols="38"  placeholder="Please include any special accomodations you may need."></textarea>
                         </label><br/>                
-                    </label>
                     <input type="submit" value="Reserve Your Rooms" name="button" class="button">
                     <p>*For long-term stay reservations of our suites, please use the contact form on the <a href="missionaries.html">Missionaries</a> page.</p>
                 </fieldset>
