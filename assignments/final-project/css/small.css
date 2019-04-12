@@ -6,6 +6,10 @@ nav ul.hide2 {
 
 /* Header Section */
 @media only screen and (max-width: 999px) {
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+
     nav ul.hide {
         display: none;
     }
@@ -156,6 +160,10 @@ main h1 {
 
 #bookingp {
     text-align: center;
+}
+
+#hotel-contact h3 {
+    line-height: 10px;
 }
 /*body style*/
 

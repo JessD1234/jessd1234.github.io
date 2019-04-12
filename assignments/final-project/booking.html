@@ -70,16 +70,16 @@
                 <fieldset>
                     <h2>Reservations Form:</h2>
                     <label for="name"> Full Name: <br/>
-                        <input type="text" id="name" name="name"><br/>
+                        <input type="text" id="name" name="name" required><br/>
                     </label>
                     <label for="email">Email:<br/>
                         <input type="email" id="email" name="email" class="box" placeholder="demo@email.com" required><br/>
                     </label>
                     <label for="telephone">Telephone Number:<br/>
-                        <input type="tel" id="telephone" class="box" name="number"><br/>
+                        <input type="tel" id="telephone" class="box" name="number" required><br/>
                     </label>
                     <label for="home-country">Home State or Country:<br/>
-                        <input type="text" id="home-country" name="home-country"><br/>
+                        <input type="text" id="home-country" name="home-country" required><br/>
                     </label>
                     <label for="location">Hotel Location:<br/>
                         <select id="location">
@@ -91,7 +91,7 @@
                         </select><br/>
                     </label>
                         <label for="roomammount">Number of Rooms: (Max of 4)<br/>
-                            <input type="text" id="roomammount" name="roomammount"><br/>
+                            <input type="text" id="roomammount" name="roomammount" required><br/>
                         </label>
                         <label>Room Type:</label><br/>
                     <div>
@@ -107,10 +107,10 @@
                         <label for="suite">Suite*</label>
                     </div>
                     <label for="start-date">Start Date:<br/>
-                        <input type="date" id="start-date" class="box" name="start-date"><br/>
+                        <input type="date" id="start-date" class="box" name="start-date" required><br/>
                     </label>
                     <label for="end-date">End Date:<br/>
-                        <input type="date" id="end-date" class="box" name="end-date"><br/>
+                        <input type="date" id="end-date" class="box" name="end-date" required><br/>
                     </label>
                         <label for="additional-info">Additional Info:<br/>
                             <textarea id="additional-info" class="box" rows="8" cols="38"  placeholder="Please include any special accomodations you may need."></textarea>
