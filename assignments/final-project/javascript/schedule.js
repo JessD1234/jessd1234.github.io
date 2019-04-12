@@ -1,6 +1,6 @@
 var scheduleSection = document.querySelector(".schedule");
 
-                var requestURL = "https://api.jsonbin.io/b/5ca5488424f5074645ec64f0";
+                var requestURL = "https://api.jsonbin.io/b/5ca5488424f5074645ec64f0/1";                            
                 var request = new XMLHttpRequest();
                 request.open("GET", requestURL);
                 request.responseType = "json";

@@ -202,9 +202,13 @@ main {
     margin-top: 0px;
 }
 
+.contact-info {
+    padding-top: 10px;
+}
+
 #sandiego-contact {
-    padding-left: 20px;
-    padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
 }
 
 #brazil-contact {

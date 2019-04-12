@@ -181,6 +181,10 @@ footer {
     padding: 15px;
 }
 
+footer a {
+    color: #542a27;
+}
+
 footer p {
     text-align: center;
 }

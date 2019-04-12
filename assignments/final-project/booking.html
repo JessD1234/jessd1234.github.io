@@ -34,7 +34,7 @@
                     <li class="small-menu"><a href="reception.html">Reception Rooms</a></li>
                     <li class="small-menu"><a href="missionaries.html">Full-Time Missionaries</a></li>
                     <li class="small-menu"><a href="children.html">Children Accomodations</a></li>
-                    <li class="small-menu"><a href="booking.html">Book a Stay</a></li>
+                    <li class="small-menu  wayfinder"><a href="#">Book a Stay</a></li>
                     <li class="small-menu"><a href="contact.html">Contact Us</a></li>
                 </ul>
                     <div class="dropdown">
@@ -58,21 +58,71 @@
                         </ul>
                     </div>
                     <ul class="hide">
-                    <li><a href="booking.html">Book a Stay</a></li>
+                    <li class="wayfinder"><a href="#">Book a Stay</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h2>Thank You</h2>
-            <p> You're contact form has been submitted. Thank you for your interest and support. You should be contacted within three business days. </p>
-            <p>Return to the <a href="index.html">Home Page.</a></p>
-            <br/>
-            <br/>
-            <br/>
+            <h1>Book a Stay With Us</h1>
+            <p>Ready to try the Hotel Inn & Suites experience for yourself? Please submit the form below to reserve a room.</p>
+            <form action="reserved.html">
+                <fieldset>
+                    <h2>Reservations Form:</h2>
+                    <label for="name"> Full Name: <br/>
+                        <input type="text" id="name" name="name"><br/>
+                    </label>
+                    <label for="email">Email:<br/>
+                        <input type="email" id="email" name="email" class="box" placeholder="demo@email.com" required><br/>
+                    </label>
+                    <label for="telephone">Telephone Number:<br/>
+                        <input type="tel" id="telephone" class="box" name="number"><br/>
+                    </label>
+                    <label for="home-country">Home State or Country:<br/>
+                        <input type="text" id="country" name="home-country"><br/>
+                    </label>
+                    <label for="location">Hotel Location:<br/>
+                        <select id="location">
+                            <option>--Select Location--</option>
+                            <option value="San Diego, California">San Diego, California</option>
+                            <option value="Columbus, Ohio">Columbus, Ohio</option>
+                            <option value="Sao Paulo, Brazil">Sao Paulo, Brazil</option>
+                            <option value="Rome, Italy">Rome, Italy</option>
+                        </select><br/>
+                        <label for="rooms">Number of Rooms: (Max of 4)<br/>
+                            <input type="text" id="roomammount" name="roomammount"><br/>
+                        </label>
+                        <label>Room Type:</label><br/>
+                    <div>
+                        <input type="radio" class="radio" id="regular-king" value="single bed king" name="dangerous">
+                        <label for="yes">Single Bed King</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" id="maybe" value="Maybe" name="dangerous">
+                        <label for="maybe">Two Queen Beds</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="radio" id="no" value="No" name="dangerous">
+                        <label for="no">Suite*</label>
+                    </div>
+                    <label for="storm-date">Start Date:<br/>
+                        <input type="date" id="storm-date" class="box" name="storm-date"><br/>
+                    </label>
+                    <label for="storm-date">End Date:<br/>
+                        <input type="date" id="storm-date" class="box" name="storm-date"><br/>
+                    </label>
+                        <label for="additional-info">Additional Info:<br/>
+                            <textarea id="addinfo" class="box" rows="8" cols="38"  placeholder="Please include any special accomodations you may need."></textarea>
+                        </label><br/>                
+                    </label>
+                    <input type="submit" value="Reserve Your Rooms" name="button" class="button">
+                    <p>*For long-term stay reservations of our suites, please use the contact form on the <a href="missionaries.html">Missionaries</a> page.</p>
+                </fieldset>
+                
+            </form>
         </main>
         <footer>
-            <p>Jessica Duckworth | Copyright &copy; 2019. All rights reserved | <span id="date"></span> | Weather Information from openweathermap.org</p>
+            <p>Jessica Duckworth | Copyright &copy; 2019. All rights reserved | <span id="date"></span> | <a href="#">Resources</a></p>
         </footer>
         <script src="javascript/hamburger.js"></script>
         <script src="javascript/date.js"></script>
